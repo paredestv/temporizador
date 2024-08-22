@@ -1,0 +1,56 @@
+/* styles.css */
+
+
+/*
+El diseño CSS es simple y elegante, con colores llamativos para los botones y un estilo limpio para la pantalla del temporizador.
+*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+#reset {
+    background-color: #d9534f;
+    color: white;
+}
